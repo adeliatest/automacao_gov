@@ -70,6 +70,9 @@ npx cypress open
 ```
 npx cypress run
 ```
+## 🗣️ Explicação
+- Vídeo explicando o projeto:
+- https://drive.google.com/drive/folders/1sldSEJwtNcKSEKNs1WDtU3qHaDPkB_hH?usp=drive_link
 
 ## ✅ Boas práticas
 - Nomenclatura
