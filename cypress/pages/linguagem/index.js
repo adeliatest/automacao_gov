@@ -1,7 +1,7 @@
 import { elements as el } from "./elements";
 
 class Linguagem {
-
+    // Botão de linguagem
     visitarPaginaInicial() {
         cy.visit(el.urlInicial)
     }
@@ -40,9 +40,10 @@ class Linguagem {
         }
     }
 
-    validacaoUrlLinguagem (urlEsperada) {
+    validacaoUrlLinguagem(urlEsperada) {
         cy.url().should('include', urlEsperada);
     }
 }
 
+// instância
 export default new Linguagem()

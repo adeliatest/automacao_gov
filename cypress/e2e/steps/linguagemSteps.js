@@ -1,6 +1,8 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
+// importa pageObject de linguagem
 import Linguagem from '../../pages/linguagem';
 
+// Verificação da url do botão de linguagem
 Given('que estou na página inicial do gov', () => {
   Linguagem.visitarPaginaInicial();
 });

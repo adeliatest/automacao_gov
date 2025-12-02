@@ -1,8 +1,10 @@
 context('Linguagem', () => {
+    // abre a página inicial do gov
     beforeEach(() => {
         cy.visit('https://www.gov.br')
     });
 
+    // testa o botão de mudar linguagem do site - 3 linguagens
     it('Botão de mudança de linguagem - PT-BR', () => {
         cy.get('#barra-govbr').shadow().find('div.overlay-wrapper').click();
         cy.get('#barra-govbr').shadow().find('span.langue-select').should('have.text', 'Idioma atual: PT');

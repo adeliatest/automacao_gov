@@ -1,8 +1,10 @@
 context('Acessibilidade', () => {
+    // abre a página de acessibilidade do gov
     beforeEach(() => {
         cy.visit('https://www.gov.br/governodigital/pt-br/acessibilidade-digital')
     });
 
+    // casos de teste de 3 cards da página
     it('Breadcrumbs - Card de material de apoio', () => {
         cy.get('#barra-govbr').shadow().find('div.overlay-wrapper').click();
         cy.get('#content a[href="https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/material-de-apoio"] span.titulo').should('have.text', 'Material de apoio').click();

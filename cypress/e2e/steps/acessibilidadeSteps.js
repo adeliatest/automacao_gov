@@ -1,8 +1,10 @@
 /// <reference types="cypress" />
 
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps"
+// importa pageObject de acessibilidade
 import Acessibilidade from '../../pages/acessibilidade'
 
+// Verificação de url dos cards de acessibilidade
 Given('que estou na página de acessibilidade do gov', () => {
     Acessibilidade.visitarPaginaAcessibilidade();
 })

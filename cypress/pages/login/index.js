@@ -25,7 +25,6 @@ class Login {
     validacaoPaginaLogin() {
         cy.url().should('include', 'https://sso.acesso.gov.br/login')
     }
-
 }
 
 // instância
