@@ -58,24 +58,6 @@ O histórico de navegação é igual a "Acessibilidade e Usuário > Acessibilida
 
 # LOGIN 
 
-## CENÁRIO:
-Login
-# Título:
-Login - botão de login
-# Resumo:
-Verifica se o campo de cpf aceita que o usuário insira algo além de números
-# Navegador:
-Chrome
-# Url:
-https://www.gov.br
-# Pré-requisito:
-Estar na página inicial do gov - https://www.gov.br
-# Passos:
-1) Clicar no botão "Entrar com gov.br"
-2) Verificar se a url vai para a página de login
-# Resultado:
-A url deverá incluir https://sso.acesso.gov.br/login
-
 # CENÁRIO:
 Login
 # Título:
@@ -153,6 +135,28 @@ Estar na página https://www.gov.br
 3) Verificar se a url é igual a https://www.gov.br/planalto/es
 # Resultado:
 A url deverá ser igual a https://www.gov.br/planalto/es
+
+# =========================================
+
+# HOME
+
+## CENÁRIO:
+Home
+# Título:
+Home - Botão de login
+# Resumo:
+Verifica se o campo de cpf aceita que o usuário insira algo além de números
+# Navegador:
+Chrome
+# Url:
+https://www.gov.br
+# Pré-requisito:
+Estar na página inicial do gov - https://www.gov.br
+# Passos:
+1) Clicar no botão "Entrar com gov.br"
+2) Verificar se a url vai para a página de login
+# Resultado:
+A url deverá incluir https://sso.acesso.gov.br/login
 
 
 
